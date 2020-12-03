@@ -27,7 +27,8 @@ const DrawerAppNavigator = createDrawerNavigator(
     ...AppNavigator,
   },
   {
-    contentComponent: SideMenu
+    contentComponent: SideMenu, 
+    initialRouteName: “OnboardingSlideScreen1181450”,
   },
 );
 
